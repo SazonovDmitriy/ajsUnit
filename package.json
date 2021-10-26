@@ -1,0 +1,29 @@
+{
+  "name": "ajsunit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SazonovDmitriy/ajsUnit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SazonovDmitriy/ajsUnit/issues"
+  },
+  "homepage": "https://github.com/SazonovDmitriy/ajsUnit#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "core-js": "^3.19.0"
+  }
+}
