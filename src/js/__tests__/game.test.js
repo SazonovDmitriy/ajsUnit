@@ -6,6 +6,6 @@ test('order check', () => {
         {name: 'лучник', health: 80},
         {name: 'мечник', health: 10},
       ];
-    const recevied = order(arr);
+    const recevied = order();
     expect(recevied).toEqual(expected);
 });
